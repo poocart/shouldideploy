@@ -9,7 +9,7 @@ let app = express();
 
 const router = express.Router();
 
-app.get('/api', function(req, res) {
+router.get('/api', function(req, res) {
   res.status(200).send({
     shouldideploy: !IS_FRIDAY,
     reason: getRandom(dayHelper()),
@@ -19,8 +19,6 @@ app.get('/api', function(req, res) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/.netlify/functions/server', router);
-
-app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
 
 module.exports = app;
 module.exports.handler = serverless(app);
