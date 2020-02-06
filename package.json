@@ -10,8 +10,10 @@
     "lambda": "netlify-lambda build api"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
     "css-loader": "^2.1.1",
     "eslint": "^5.15.0",
     "netlify-lambda": "^1.4.2",
@@ -23,7 +25,6 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "babel-preset-env": "^1.7.0",
     "snyk": "^1.267.0"
   },
   "snyk": true
