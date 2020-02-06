@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const serverless = require('serverless-http');
+const path = require('path');
 
 const { getRandom, dayHelper, IS_FRIDAY } = require('../src/js/constants');
 
