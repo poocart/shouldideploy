@@ -2,3 +2,8 @@
     command = "npm install && npm run build && npm run lambda"
     publish = "public"
     functions = "functions"
+
+[[redirects]]
+    from = '/api'
+    to = '/.netlify/functions/server/api'
+    status = 200
