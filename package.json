@@ -22,6 +22,9 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "babel-preset-env": "^1.7.0",
+    "snyk": "^1.267.0"
+  },
+  "snyk": true
 }

@@ -11,11 +11,12 @@ export const REASONS_TO_DEPLOY = [
   'Rock on!',
   'Make me proud',
   'Break a leg!',
+  'This Is the Way',
 ];
 
 export const REASONS_TO_NOT_DEPLOY = [
   'I wouldn\'t recommend it',
-  'No man, it\'s Friday',
+  'No, it\'s Friday',
   'What about Monday?',
   'Not today',
   'Tomorrow?',
@@ -25,7 +26,7 @@ export const REASONS_TO_NOT_DEPLOY = [
   '¯\\_(ツ)_/¯',
   '😹',
   'No',
-  'No. Breath and count to 10, start again',
+  'No. Breathe and count to 10, start again',
 ];
 
 export const REASONS_FOR_FRIDAY_AFTERNOON = [
@@ -44,8 +45,8 @@ export const REASONS_FOR_FRIDAY_AFTERNOON = [
 
 export const REASONS_FOR_AFTERNOON = [
   'You still want to sleep?',
-  'Call your wife!',
-  'Gonne stay late today?',
+  'Call your partner!',
+  'Gonna stay late today?',
   'Tomorrow?',
   'No',
   'Tell your boss that you found a bug and go home',
