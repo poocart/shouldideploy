@@ -1,6 +1,6 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import serverless from 'serverless-http';
+const express require('express');
+const bodyParser require('body-parser');
+const serverless require('serverless-http');
 
 import { getRandom, dayHelper, IS_FRIDAY } from '../src/js/constants';
 
