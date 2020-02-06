@@ -2,7 +2,7 @@ const express require('express');
 const bodyParser require('body-parser');
 const serverless require('serverless-http');
 
-import { getRandom, dayHelper, IS_FRIDAY } from '../src/js/constants';
+const { getRandom, dayHelper, IS_FRIDAY } require('../src/js/constants');
 
 let app = express();
 
