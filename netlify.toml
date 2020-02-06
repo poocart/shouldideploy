@@ -4,6 +4,6 @@
     functions = "functions"
 
 [[redirects]]
-    from = '/api'
+    from = '/api/*'
     to = '/.netlify/functions/server/api'
     status = 200
